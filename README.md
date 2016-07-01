@@ -9,28 +9,23 @@
 
 ### TBA
 * Jade Hot reload
-* jQuery fallback for bootstrap
-* Bootstrap fully support (icon)
 * Jade Inject (?)
-* CSS Merge
+* jQuery fallback for bootstrap - maybe fallback.js
+* CSS Merge - assets pipeline
 
 
 ## Getting Started
 ### Development
 ```
-npm nn
-
-
+npm install
 npm start
 ```
 
 ### Production
-
 ```
 npm run build
 NODE_ENV=production npm start
 ```
-
 
 ## Reference
 * [Webpack Express Boilerplate](https://github.com/christianalfoni/webpack-express-boilerplate)
