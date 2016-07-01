@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to About page
+  p Check the console see if there's page-based js loaded
+  a(href="/") Home Page
+block scripts
+  script(type="text/javascript" src="/js/page/about.js")
